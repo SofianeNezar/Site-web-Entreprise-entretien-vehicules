@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+    <body>
+        <form action="site.php" method="get">
+            <input type="text" name="name">
+            <input type="submit" value="Send">
+</form>
+        <form action="site.php" method="post">
+            Milan<input type="checkbox" name="winners[]" value="AC milan">
+            <br>
+            Tottenham <input type="checkbox" name="winners[]" value="Tottenham">
+            <br>
+            PSG:<input type="checkbox" name="winners[]" value="PSG">
+            <br>
+            BAYERN:<input type="checkbox" name="winners[]" value="BAYERN MUNCHEN">
+            <br>
+            <input type="submit" value="OK">
+        </form>
+
+        <form action="site.php" method="post">
+        <input type="text" name="Couleurs">
+        <input type="submit" value="Choix">
+    </form>
+        <?php
+        $name = "John";
+        $pieces=array("knight", "bishop","king");
+        $clubsclr =array("jsk"=>"JAUNE ET VERT", "csc"=>"NOIR ET VERT");
+        echo $name[0];
+        //echo (intval($_GET["name"])*2);
+        //echo substr($name,1);
+        $winners= $_POST["winners"];
+        echo $winners[0];
+        
+
+        ?>
+    </body>
+</html>

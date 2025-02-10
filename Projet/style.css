@@ -1,0 +1,199 @@
+
+h1{
+    color: transparent;
+}
+li{
+
+    display:inline;
+    border-color: grey;
+    margin: 0.3px;
+    padding:3px;
+    color: white;
+    border-right: solid white 0.1;
+
+
+}
+li:hover{
+    color: red;
+}
+#accimg{
+  height: 100%;
+  
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    height:10%;
+    border-bottom: solid;
+    border-color: brown;
+    
+}
+ul.menu{
+    position:relative;
+    top:10%;
+    left: 76%;
+}
+#logo{
+    background: linear-gradient(wheat,white);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 90px;
+    position: absolute;
+    top:3%;
+    left:24%;
+    font-weight: 900;
+    z-index: 1;
+
+}
+.header{
+    position:absolute;
+    top :40%;
+    left:20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.headertxt{
+    color: antiquewhite;
+}
+h2.headertxt{
+    font-size: 2rem;
+}
+p.headertxt{
+    font-size: 1.2rem;
+}
+
+a.rdv{
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  margin:4.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:black;
+  display: flex;
+  justify-content: center;
+  width:40%;
+
+  
+}
+
+a.rdv:hover{
+  background-image: linear-gradient(grey,lightgrey);
+}
+a.btncnx{
+  background-color: white;
+  border-radius: 1rem;
+  color: red;
+  padding:  3px;
+}
+a.srvc{
+    text-decoration: none;
+    border:outset black;
+    width:16%;
+    height:30%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100hv;
+    border-radius: 2rem;
+    color: white;
+}
+
+.srvccont{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:40rem;
+    background-image: url(entretien.jpg);
+    position: relative;
+  z-index: 0;
+}
+.blur{
+  backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+h4.scttxt{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  color: black;
+    font-size: 1.6rem;
+}
+p.sctopt,h4.scttxt{
+    margin:0.2rem;
+}
+
+.upperacc{
+    position: relative;
+    height:100%;
+    width: 100%;
+    background-color: rgb(0,0,0, .5);
+}
+.upperbg{
+    position:absolute;
+    z-index:-1;
+    width: 100%;
+}
+.barre{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    height: 10%;
+    top:50%;
+    left: 35%;
+}
+.infoacc {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.infbox {
+  margin: 1rem;
+  text-align: center;
+}
+
+.infboxtxt {
+  font-size: 14px;
+  color: #333;
+}
+
+.titlepg{
+    position: relative;
+    top: 10%;
+    left:44%;
+    color: bisque;
+    font-family: fantasy;
+}
+
+.entretienbg{
+    position:absolute;
+    z-index: -1;
+    filter: blur(6px);
+
+}
+
+h1.srvlabel{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+  
