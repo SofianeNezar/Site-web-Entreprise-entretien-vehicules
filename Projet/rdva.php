@@ -1,3 +1,5 @@
+// Author: Sofiane Nezar
+// GitHub: https://github.com/SofianeNezar
 
     <head>
     <style>
