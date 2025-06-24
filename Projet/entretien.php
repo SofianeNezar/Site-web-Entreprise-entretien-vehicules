@@ -1,3 +1,6 @@
+// Author: Sofiane Nezar
+// GitHub: https://github.com/SofianeNezar
+
 <!DOCTYPE html>
 <html>
 <head>
