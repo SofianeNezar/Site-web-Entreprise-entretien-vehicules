@@ -1,3 +1,5 @@
+// Author: Sofiane Nezar
+// GitHub: https://github.com/SofianeNezar
 <html>
     <head>
         <link href="style.css" rel="stylesheet", type="text/css">
