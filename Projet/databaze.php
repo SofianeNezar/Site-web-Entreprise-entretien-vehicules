@@ -1,3 +1,7 @@
+// Author: Sofiane Nezar
+// GitHub: https://github.com/SofianeNezar
+
+
 <?php
 $servername = "localhost";
 $username = "username";
